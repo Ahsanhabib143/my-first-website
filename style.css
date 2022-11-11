@@ -36,3 +36,13 @@ h1{
 section{
     height: 500px;
 }
+.half-width{
+    float:left;
+
+}
+h2{
+    font-size:50px;
+}
+h3{
+    font-size:30px;
+}
