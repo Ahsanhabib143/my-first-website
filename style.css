@@ -1,48 +1,107 @@
-body{
-    margin:0;
-    font-family: 'Oswald', sans-serif;}
+            body{
+                margin:0;
+                font-family: 'Oswald', sans-serif;
+            
+            
+            
+            }
 
-h1{
-    font-size: 50px;}
-    .friend{
-        color:orange;
-    }
-.half-width{
-    width:40%;
-   float:left;
-    margin-left:5%;
-    padding-left:2%;
-}
-.half-width img{
-    width:100%;
-}
-.top-banner{
-    background-image: url("images/habibi.png");
-    background-repeat: no-repeat;
-}
+            h1{
+                font-size: 50px;}
+                .orange-hightlight{
+                    color:orange;
+                }
+            .half-width{
+                width:40%;
+                float:left;
+                margin-left:5%;
+                padding-left:2%;
+               
+            }
+            .half-width img{
+                width:100%;
+            }
+            .top-banner{
+                background-image: url("images/habibi.png");
+                background-repeat: no-repeat;
+                
+            
+            }
 
-.anchor-button{
-    text-decoration: none;
-    background-image:linear-gradient(tomato, orange);
-    border-radius: 20%;
-    padding: 5px 10px;
-    color:white;
-    font-weight: bold;
-    
-} 
-.p{
-    font-size:25;
-}
-section{
-    height: 500px;
-}
-.half-width{
-    float:left;
+            .anchor-button{
+                text-decoration: none;
+                background-image:linear-gradient(tomato, orange);
+                border-radius: 20%;
+                padding: 5px 10px;
+                color:white;
+                font-weight: bold;
+                
+            } 
+            .p{
+                font-size: 75px;
+            }
+            section{
+                height: 500px;
+            }
+            .half-width{
+                float:left;
+                width:40%;
 
-}
-h2{
-    font-size:50px;
-}
-h3{
-    font-size:30px;
-}
+            }
+            h2{
+                font-size:50px;
+            }
+            h3{
+                font-size:30px;
+            } 
+            h4{
+                font-size:20px;
+            }
+            
+            .middle-area{
+                background-image: url("images/dream-bg.png");
+                background-repeat: no-repeat;
+                background-position: right;
+            }
+            .full-width{
+             
+                float:left;
+                box-shadow: 10px 10px;
+                padding-left: 505;
+                
+            }
+            .experience{
+                width:50%;
+            }
+            #left-width{
+                float:left;
+            }
+            .profile{
+                height:80%;
+                width:80%;
+            }
+          .single-experience{
+            box-shadow: 10px 10px 40px gray;
+            border-radius: 5px;
+            height:80%;
+
+          }
+       .experience-area{
+        background-image: url("images/exp-bg.png");
+        background-repeat: no-repeat;
+        background-position: left center;
+        padding-bottom:150px;
+       }
+       #full-stack{
+        border-left: 7px solid;
+        border-image: linear-gradient(lightsalmon, tomato);
+        border-image-slice:1;
+       }
+       #baby-web{
+        border-left:7px solid;
+        border-image: linear-gradient(blue, skyblue);
+        border-image-slice:1;
+       }
+       footer p{
+        text-align:bottom center;
+       }
